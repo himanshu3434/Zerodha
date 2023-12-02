@@ -1,72 +1,86 @@
-body{
-    margin: 0;
-    padding: 0;
-
+body {
+margin-left:0;
 }
+h2{
+    margin:0;
+}
+
+.nav-container{
+    box-shadow:  0px 1px 0px rgb(224, 224, 224);
+    margin:0 0;
+}
+
 .navbar{
-  padding-top: 3.5vh;
-  height: 8vh;
- border-bottom: 1px solid #dad8d8;
-  
-}
+    
+  display:flex;
+  padding-bottom: 2vh;
+  margin:3vh 21.5vw;
+ 
 
-.options > h2{
-    display:inline-block;
-    margin : 0  2vw 0;
-    color: #9b9b9b;
-    font-size: 99%;
-   font-family: 'Inter',sans-serif ;
-}
-.options > h2:hover{
- color:#387ed1;
-}
-.ib{
-    display: inline-block;
 }
 .logo{
-    
-    text-align: left;
-    height: 3vh;
+    width:130px;
    
-    margin-left: 2vw;
 }
-.options{
-    text-align: right;
-    
-}
-.spacer{
-    display: inline-block;
+.left{
     width:30%;
+    margin:auto 0;
 }
-.start{
-    margin-top: 8vh;
-    text-align:center;
+.right{
+    margin:auto 0;
+    margin-left:5vw;
+    list-style-type: none ;
+   width:70%;
+  display:flex;
+  font-size: .8vw;
+  font-family: "Inter",sans-serif;
+  justify-content: space-evenly;
+}
+.tab-item:hover{
+    color: #387ed1;
 }
 
-.photo{
-  
-    width:70vw;
-}
-.sec-head{
+
+/* Section 1 */
+.container{
+    margin:0 21.5vw;
+    display: flex;
+    justify-content: center;
     font-family: "Inter",sans-serif;
-    margin-top: 8vh;
+}
 
+.trade-img{
+    width:50vw;
 }
-.sec-head > h1{
-    font-size: 2.5em;
-    color: #424242;
+
+.section1{
+    margin-top:10vh;
+   text-align: center;
 }
-.sec-head > h2{
-    color: #8e8e8e ;
-    font-size: 1.35em;
+
+.lower1 > h1{
+    font-size:2vw;
+    margin-top:4vw;
+    color: rgb(82, 82, 82);
 }
-.sign-up{
-    margin-top: 2vh;
-    margin-bottom: 3vh;
-    padding: 1.2vh 5vw ;
-    background-color:#387ed1 ;
-    color: white;
-    font-size:1.5em;
-    border: none;
-    border-radius: .2em;
+.lower1 > p{
+    font-size: 1vw;
+    color: rgb(120, 120, 120);
+}
+
+.sign-up-button{
+  margin-top: 3vh;
+    width:8vw;
+    padding:1vh 0;
+     font-size:18px;
+     font-family: "Inter",sans-serif;
+   background-color: #387ed1;
+   color:white;
+   border-style: none;
+   border-radius: 5px;
+   font-weight: 500;
+}
+.sign-up-button:hover{
+    background-color: black;
+    
 }
